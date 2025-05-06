@@ -40,8 +40,5 @@ func TestCleanInput(t *testing.T) {
 				t.Errorf("cleanInput(%v) expected word: %v actual word: %v", c.input, actual, c.expected)
 			}
 		}
-		// if failFlag {
-		// 	t.Fail()
-		// }
 	}
 }
